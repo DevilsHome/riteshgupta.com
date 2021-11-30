@@ -1,0 +1,14 @@
+.footer{
+    background-color:#000;
+    height:40px;
+}
+h4.copyrightMessage{
+   text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    margin-top:20px;
+    font-size:14px;
+    opacity:0.75;
+}
+

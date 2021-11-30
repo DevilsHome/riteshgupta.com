@@ -1,0 +1,107 @@
+
+.home_bg
+{
+    background-image: url('D:/Project/portfolio/src/img/new-1.jpg');
+    background-color: #010101;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+li.nav__items{
+    font-size: 18px;
+    padding-bottom:15px;
+    display :inline-block;
+}
+.home__content{
+    padding:180px 0px;
+}
+h1.home__text
+{
+    font-size: 18px;
+    font-weight: 40;
+    letter-spacing: 3px;
+    color:rgba(198,201,216,.75) !important;
+}
+h2.home__text
+{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: Montserrat,sans-serif;
+    color:#fff;
+}
+h3.home__text
+{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+    line-height: 40px;
+}
+.logo img
+{
+    margin-top: 20%;
+    max-width:80px;
+}
+.header{
+    transition:.4s all ease ;
+}
+.header.active{
+    position:fixed;
+    z-index:1000;
+    width: 100%;
+    height:70px;
+    padding: 0px 30px;
+    background-color:#191919;
+}
+.toggle__menu{
+    display: none;
+    justify-content: flex-end;
+    float:right;
+    margin-top: 20px;
+    z-index:1000;
+    width:100%;
+}
+ul.sidebar.d__flex{
+    flex-wrap:wrap;
+    height: 100%;
+    position:fixed;
+    right:0%;
+    background:#010101;
+    justify-content: center;
+    width:300px;
+    top:0%;
+    display: none;
+    flex-direction:column;
+}
+li.sideNavbar {
+    padding:15px 30px;
+    padding-top:50px;
+}
+
+/* Responsive */
+@media only screen and (max-width:768px)
+{
+   .header{
+       justify-content:space-between;
+   } 
+.navigation.pxy__30{
+        display: none;
+    }
+h2.white.pz-10{
+    font-size:50px !important;
+}
+h3.home__text{
+    font-size:45px;
+}
+.toggle__menu{
+    display: flex;
+}
+ul.sidebar.d__flex{
+    display: block;
+}
+svg.bi.bi-justify.white.pointer{
+    width:30px;
+    height:30px;
+}
+}
+
